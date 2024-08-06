@@ -1,0 +1,124 @@
+
+@media only screen and (max-width: 600px) {
+
+    .intro .first{
+        h2{
+            font-size: 16px;
+        }
+    }
+    //intro div styles here
+    .second{
+        ul{
+            li{
+                font-size: 10px;
+            }
+        }
+        .first-list{
+            padding-right: 15px;       
+        }
+    }
+    .slider {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .slides {
+        display: flex;
+        transition: transform 1s ease-in-out;
+    }
+    
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .slide img {
+        width: 100%;
+        display: block;
+    }
+    
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        border: none;
+        padding: 20px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h4{
+            text-transform: capitalize;
+        }
+    }
+    .p-wrap{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px dotted darkslategrey;
+        margin-bottom: 25px;
+    }
+    .project-img img{
+        max-width: 100%;
+        max-height: 100vh;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+
+        border-radius: 2px;
+        transition: all .15s ease-in-out;
+    }
+    .project-img img:hover{
+        filter: brightness(85%);
+    }
+    .project-text{
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+            li{
+                text-transform: capitalize;
+                font-weight: bold;
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: lighter;
+                text-transform: lowercase;
+                background-color: white;
+                
+            }
+        }
+
+        .pt-left{
+            font-size: 12px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
+}

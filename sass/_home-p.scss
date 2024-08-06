@@ -1,0 +1,71 @@
+//navabar styles here
+.navbar{
+    margin-bottom: 25px;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+}
+.brandlogo{
+    font-size: 24px;
+}
+.navlist li{
+    border-bottom: 1px solid darkslategrey;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 12px;
+}
+
+//intro div styles here
+.intro{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.first h2{
+    font-size: 20px;
+}
+.second{
+    display: flex;
+    font-weight: bold;
+
+    ul{
+        list-style: none;
+
+        li{
+            font-size: 12px;
+
+            a{
+                text-decoration: none;
+                color: black;
+                text-decoration: underline;
+                text-decoration-color: darkslategrey;
+            }
+        }
+        .introlink-hd{
+            text-transform: capitalize;
+        }
+    }
+    .first-list{
+        padding-right: 15px;       
+    }
+}
+.third{
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+.notice{
+    font-size: 10px;
+    font-family: "Playwrite NG Modern", cursive;
+
+    i{
+        color: white;
+    }
+}

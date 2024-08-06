@@ -1,0 +1,28 @@
+.about-section{
+    margin-top: 100px;
+    //background-color: darkslategrey;//
+    //color: white;
+}
+.hide{
+    opacity: 0;
+}
+h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 25px;
+
+    .title{
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+p{
+    font-size: 14px;
+}
+i{
+    color: darkslategrey;
+}
